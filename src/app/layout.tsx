@@ -1,3 +1,5 @@
+import { font } from '@/lib/fonts'
+import { cn } from '@/lib/utils'
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import './globals.css'
@@ -10,7 +12,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children}: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="pt-BR">
-      <body className="dark">{children}</body>
+      <body className={cn('dark', font.className)}>
+        {children}
+      </body>
     </html>
   )
 }
