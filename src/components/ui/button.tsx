@@ -29,13 +29,15 @@ export const buttonVariants = cva('hover:cursor-pointer inline-flex items-center
 },
 )
 
+export type ButtonProps = ComponentProps<'button'> & VariantProps<typeof buttonVariants> & { asChild?: boolean }
+
 export function Button({
   className,
   variant,
   size,
   asChild = false,
   ...props
-}: ComponentProps<'button'> & VariantProps<typeof buttonVariants> & { asChild?: boolean }) {
+}: ButtonProps) {
   const Comp = asChild ? Slot : 'button'
 
   return (
