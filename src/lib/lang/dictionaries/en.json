@@ -1,5 +1,6 @@
 {
-  "teste": {
-    "text1": "Welcome to this site!"
+  "main": {
+    "header1": "What is this Website?",
+    "paragraph1.1": "This Website is a practical example of implementing a Language Switcher (Locale) system based on Cookies, within the Next.js framework."
   }
 }

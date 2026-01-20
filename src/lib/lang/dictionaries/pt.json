@@ -1,5 +1,17 @@
 {
-  "teste": {
-    "text1": "Bem vindo(a) à esse site!"
+  "projectName": "Projeto com Switch de idiomas",
+  "main": {
+    "header1": "O que é esse Website?",
+    "paragraph1.1": "Esse Website é um exemplo prático da implementação de um sistema de Languague Switcher (Locale) baseado em Cookies, dentro da framework Next.js.",
+
+    "header2": "Quais tecnologias foram utilizadas para desenvolver esse Website?",
+
+    "header3": "Como esse Website funciona?",
+    "paragraph3.1": "Assim que você entra no Website, um Cookie com a chave 'lang' é definido no seu browser, esse Cookie é responsável por definir qual a linguagem o Website estará configurado.",
+    "paragraph3.2": "Os valores possíveis para esse Cookie são: (en, pt) que condizem à English e Português respectivamente.",
+    "paragraph3.3": "Caso o Cookie assuma um valor inválido, o sistema irá automaticamente definir o valor desse Cookie para o idioma padrão do Website, que eu defini como sendo Inglês.",
+
+    "header4": "Quais cuidados devemos tomar quando estamos lidando com Cookies no Next.js?",
+    "paragraph4.1": "..."
   }
 }
