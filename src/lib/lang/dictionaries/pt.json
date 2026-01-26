@@ -11,7 +11,10 @@
     "paragraph3.2": "Os valores possíveis para esse Cookie são: (en, pt) que condizem à English e Português respectivamente.",
     "paragraph3.3": "Caso o Cookie assuma um valor inválido, o sistema irá automaticamente definir o valor desse Cookie para o idioma padrão do Website, que eu defini como sendo Inglês.",
 
-    "header4": "Quais cuidados devemos tomar quando estamos lidando com Cookies no Next.js?",
-    "paragraph4.1": "..."
+    "header4": "Porque eu desenvolvi esse Website?",
+    "paragraph4.1": "Possuir a tecnologia para alterar o idioma do seu Website de forma nativa é extremamente importante nos dias de hoje. Um Website que é capaz de se modelar ao usuário trasmite maior profissionalismo, cuidado e seriedade com o cliente. Motivado por isso, eu comecei a estudar diferentes técnicas que os desenvolvedores utilizam para implementar essa feature nos seus sistemas. Foi aí que eu cheguei nessa conclusão, um sistema que gerencia o idioma do Website através dos cookies do navegador do usuário.",
+
+    "header5": "Onde posso encontrar o código fonte desse sistema?",
+    "paragraph5.1": "Você pode encontrar ele no meu Github. E caso você tenha alguma dúvida sobre esse sistema, basta entrar em contato comigo através do meu linkedin.😉"
   }
 }

@@ -1,4 +1,7 @@
+import githubSvg from '@/assets/svg/github.svg'
 import { LangService } from '@/lib/services/lang'
+import Image from 'next/image'
+import Link from 'next/link'
 import Stacks from './_components/stacks'
 import TextSession from './_components/text-session'
 
@@ -46,6 +49,28 @@ export default async function Page() {
         </h1>
 
         {dict.main['paragraph4.1']}
+      </TextSession>
+
+      <TextSession>
+        <h1 className="text-lg font-medium">
+          {dict.main.header5}
+        </h1>
+
+        {dict.main['paragraph5.1']}
+
+        <Link
+          href="https://github.com/LucasSachs/locale"
+          target="_blank"
+          className="flex w-fit gap-2 mt-1"
+        >
+          <Image
+            src={githubSvg}
+            alt="Github logo"
+            className="size-6"
+          />
+
+          Github
+        </Link>
       </TextSession>
     </main>
   )

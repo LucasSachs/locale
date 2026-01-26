@@ -19,7 +19,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
 
   return (
     <html lang={lang}>
-      <body className={cn('light h-screen', font.className)}>
+      <body className={cn('light h-screen grid grid-rows-[auto_1fr_auto]', font.className)}>
         <Navbar projectName={dict.projectName} />
 
         {children}
