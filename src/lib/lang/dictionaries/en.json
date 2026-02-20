@@ -1,6 +1,20 @@
 {
+  "projectName": "Project with Language Switch",
   "main": {
     "header1": "What is this Website?",
-    "paragraph1.1": "This Website is a practical example of implementing a Language Switcher (Locale) system based on Cookies, within the Next.js framework."
+    "paragraph1.1": "This Website is a practical example of implementing a Language Switcher (Locale) system based on Cookies within the Next.js framework.",
+
+    "header2": "Which technologies were used to develop this Website?",
+
+    "header3": "How does this Website work?",
+    "paragraph3.1": "As soon as you enter the Website, a Cookie with the key 'lang' is set in your browser. This Cookie is responsible for defining which language the Website will be configured in.",
+    "paragraph3.2": "The possible values for this Cookie are: (en, pt), which correspond to English and Portuguese respectively.",
+    "paragraph3.3": "If the Cookie assumes an invalid value, the system will automatically set the Cookie value to the default Website language, which I defined as English.",
+
+    "header4": "Why did I develop this Website?",
+    "paragraph4.1": "Having the technology to change your Website language natively is extremely important nowadays. A Website that can adapt to the user conveys greater professionalism, care, and seriousness toward the client. Motivated by this, I started studying different techniques developers use to implement this feature in their systems. That is how I arrived at this conclusion: a system that manages the Website language through the user's browser cookies.",
+
+    "header5": "Where can I find the source code for this system?",
+    "paragraph5.1": "You can find it on my GitHub. And if you have any questions about this system, just contact me through my LinkedIn. 😉"
   }
 }
