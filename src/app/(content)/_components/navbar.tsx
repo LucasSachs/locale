@@ -5,12 +5,12 @@ import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '@/compon
 // ! > Should only get the projectName here and not the complete dictionary because of the client side bundle size
 export function Navbar({ projectName }: { projectName: string }) {
   return (
-    <NavigationMenu className="border-b min-w-full">
+    <NavigationMenu className="min-w-full md:pt-5 lg:pt-10">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <p className="py-2 font-medium">
+          <h1 className="py-2 font-medium text-md md:text-xl">
             {projectName}
-          </p>
+          </h1>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
